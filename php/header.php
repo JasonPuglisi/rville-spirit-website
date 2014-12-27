@@ -54,7 +54,6 @@ $db = new PDO("$DATABASE_TYPE:dbname=$DATABASE_NAME;host=$DATABASE_HOST", $USER_
 	<link rel='apple-touch-icon' sizes='120x120' href='//rvillespirit.com/img/icon/apple-120.png'>
 	<link rel='apple-touch-icon' sizes='144x144' href='//rvillespirit.com/img/icon/apple-144.png'>
 	<link rel='apple-touch-icon' sizes='152x152' href='//rvillespirit.com/img/icon/apple-152.png'>
-	<link rel='apple-touch-icon' sizes='180x180' href='//rvillespirit.com/img/icon/apple-180.png'>
 	<meta name='apple-mobile-web-app-capable' content='yes'>
 	<meta name='apple-mobile-web-app-status-bar-style' content='black'>
 	<meta name='application-name' content='Rville Spirit'>
