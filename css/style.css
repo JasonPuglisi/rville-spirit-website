@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif|Roboto+Slab);
+
+body {
+	font-family: 'Droid Serif', Georgia, 'Times New Roman', serif;
+}
+
+a {
+	color: #ec2028;
+
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	color: #86171b;
+}
+
+h1, h2 {
+	font-family: 'Roboto Slab', 'Droid Serif', Georgia, 'Times New Roman', serif;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.jumbotron {
+	margin: 0px;
+	background-color: #ec2028;
+	background-image: url('/img/school.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.img-featured {
+	margin: 20px auto;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 4px;
+	border-color: #ec2028;
+}
+
+.img-featured-link {
+	opacity: 0.8;
+
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.img-featured-link:hover, .img-featured-link:active {
+	opacity: 1;
+}
+
+.boxed-light {
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+	border-radius: 2px;
+}
