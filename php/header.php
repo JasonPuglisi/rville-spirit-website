@@ -42,8 +42,8 @@ $db = new PDO("$DATABASE_TYPE:dbname=$DATABASE_NAME;host=$DATABASE_HOST", $USER_
 
 	<title>Rville Spirit</title>
 
-	<link rel='stylesheet' href='//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
 	<link rel='stylesheet' href='//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+	<link rel='stylesheet' href='//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
 	<link rel='stylesheet' href='css/style.css'>
 
 	<link rel='shortcut icon' sizes='16x16 24x24 32x32 48x48 64x64' href='//rvillespirit.com/favicon.ico'>
