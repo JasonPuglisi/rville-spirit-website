@@ -2,7 +2,7 @@
 include('php/header.php');
 
 $product_pid = $_GET['pid'];
-$valid_pid = isset($product_pid) && ctype_digit($product_pid) && $product_pid > 26;
+$valid_pid = isset($product_pid) && ctype_digit($product_pid);
 
 if ($valid_pid)
 {	$stmt = $db->prepare('SELECT name, description, image, price, shipping, pickup, button_id, button_options_name, button_options FROM products WHERE pid=? LIMIT 1');
@@ -19,7 +19,7 @@ if ($valid_pid)
 		$product_button_id = $results[0]['button_id'];
 		$product_button_option_names = preg_split('/\|/', $results[0]['button_options_name']);
 		$product_button_options_grouped = preg_split('/\|/', $results[0]['button_options']);
-		$product_button_options = [];
+		$product_button_options = array();
 
 		$product_title = $product_name;
 		$product_subtitle = $product_description;

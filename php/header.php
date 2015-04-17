@@ -1,5 +1,5 @@
 <?php
-require $_SERVER['DOCUMENT_ROOT'] . '/php/config.php';
+require realpath(dirname('index.php')) . '/php/config.php';
 
 function reload()
 {	$header_location = 'Location: ' . preg_replace('/\.php|index\.php/', '', $_SERVER['PHP_SELF']);
@@ -44,7 +44,7 @@ $db = new PDO("$DATABASE_TYPE:dbname=$DATABASE_NAME;host=$DATABASE_HOST", $USER_
 
 	<link rel='stylesheet' href='//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
 	<link rel='stylesheet' href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
-	<link rel='stylesheet' href='css/style.css'>
+	<link rel='stylesheet' href='/css/style.css'>
 
 	<link rel='shortcut icon' sizes='16x16 24x24 32x32 48x48 64x64' href='//rvillespirit.com/favicon.ico'>
 	<link rel='apple-touch-icon' sizes='57x57' href='//rvillespirit.com/img/icon/apple-57.png'>
